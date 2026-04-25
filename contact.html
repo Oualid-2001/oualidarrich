@@ -1,0 +1,595 @@
+<!DOCTYPE html><!--  This site was created by Dennis Snellenberg (Code by Dennis)  -->
+<html lang="en">
+   <head>
+      <meta charset="utf-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <title>Contact - Oualid Arrich</title>
+      <meta name="description" content="Let's start a project together. Reach out via email or hop on a call. I work with companies from all over the world from my office in Morocco."/>
+      <meta property="og:title" content="Contact - Oualid Arrich"/>
+      <meta property="og:description" content="Let's start a project together. Reach out via email or hop on a call. I work with companies from all over the world from my office in Morocco."/>
+      <meta property="og:image" content="oualidAbout.jpeg"/>
+      <meta property="og:site_name" content="Oualid Arrich"/>
+                              <meta property="og:locale" content="en"/>
+      <meta property="og:type" content="website"/>      <meta property="twitter:title" content="Contact - Oualid Arrich"/>
+      <meta property="twitter:description" content="Let's start a project together. Reach out via email or hop on a call. I work with companies from all over the world from my office in Morocco."/>
+      <meta property="twitter:image" content="oualidAbout.jpeg"/>
+      <meta name="twitter:card" content="summary_large_image"/>
+      <meta name="google" content="notranslate"/>
+      <meta property="og:locale" content="en"/>
+      <link rel="canonical" href="contact.html"/>
+
+      <link rel="preload" as="font" href="assets/fonts/NeueMontreal-Regular.otf" type="font/otf" crossorigin="anonymous">
+
+      <link href="normalize.css" rel="stylesheet">      <link href="locomotive-scroll.css" rel="stylesheet">      <link href="Styleguide.css" rel="stylesheet">      <link href="components.css" rel="stylesheet">      <link href="style-new.css" rel="stylesheet">
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+		
+      
+   <style>
+        /* Profile picture in contact header */
+        .profile-picture {
+          background-image: url('oualidprofil.jpeg') !important;
+          background-position: top center !important;
+        }
+        #timeSpan { color: var(--color-gray); }
+              /* Business details - prevent awkward wrapping */
+        .contact-header .row:nth-child(2) .flex-col:nth-child(2) .links-wrap li p {
+            white-space: nowrap;
+            font-size: 0.95em;
+        }
+        @media screen and (max-width: 720px) {
+            .contact-header .row:nth-child(2) .flex-col:nth-child(2) .links-wrap li p {
+                white-space: normal;
+            }
+        }
+              /* Form validation styling */
+        .form input:invalid:not(:placeholder-shown),
+        .form textarea:invalid:not(:placeholder-shown) {
+            border-bottom-color: var(--alert-error);
+        }
+        .form input:valid:not(:placeholder-shown),
+        .form textarea:valid:not(:placeholder-shown) {
+            border-bottom-color: var(--alert-success);
+        }
+        #submitBtn:disabled {
+            cursor: not-allowed;
+        }
+              /* Form success/error message styling */
+        #form-success, #form-error {
+            padding: 2em 0;
+            animation: fadeIn 0.5s ease-in;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        #form-success h4, #form-error h4 {
+            margin-bottom: 0.5em;
+        }
+        /* Ensure form doesn't leave white space after hiding elements */
+        .form {
+            min-height: auto;
+        }
+              /* Autofill styling - prevent white/yellow background */
+        .form input:-webkit-autofill,
+        .form input:-webkit-autofill:hover,
+        .form input:-webkit-autofill:focus,
+        .form textarea:-webkit-autofill,
+        .form textarea:-webkit-autofill:hover,
+        .form textarea:-webkit-autofill:focus {
+            -webkit-text-fill-color: var(--color-white) !important;
+            -webkit-box-shadow: 0 0 0px 1000px var(--color-dark) inset !important;
+            box-shadow: 0 0 0px 1000px var(--color-dark) inset !important;
+            transition: background-color 5000s ease-in-out 0s !important;
+            caret-color: var(--color-white) !important;
+        }
+        /* Firefox autofill */
+        .form input:-moz-autofill,
+        .form input:-moz-autofill:hover,
+        .form input:-moz-autofill:focus,
+        .form textarea:-moz-autofill,
+        .form textarea:-moz-autofill:hover,
+        .form textarea:-moz-autofill:focus {
+            background: var(--color-dark) !important;
+            color: var(--color-white) !important;
+        }
+        /* General autofill fallback */
+        .form input:autofill,
+        .form textarea:autofill {
+            background: var(--color-dark) !important;
+            color: var(--color-white) !important;
+        }
+      </style>
+   <base target="_blank">
+</head>
+
+    <body data-barba="wrapper">
+        <div class="no-scroll-overlay"></div>
+        <div class="loading-container">
+            <div class="loading-screen">
+                <div class="rounded-div-wrap top">
+                    <div class="rounded-div"></div>
+                </div>
+                <div class="loading-words">
+                    <h2 class="home-active home-active-first">Hello<div class="dot"></div></h2>
+                    <h2 class="home-active">Bonjour<div class="dot"></div></h2>
+                    <h2 class="home-active">स्वागत हे<div class="dot"></div></h2>
+                    <h2 class="home-active">Ciao<div class="dot"></div></h2>
+                    <h2 class="home-active">Olá<div class="dot"></div></h2>
+                    <h2 class="home-active jap">おい<div class="dot"></div></h2>
+                    <h2 class="home-active">Hallå<div class="dot"></div></h2>
+                    <h2 class="home-active">Guten tag<div class="dot"></div></h2>
+                    <h2 class="home-active-last">Hallo<div class="dot"></div></h2>
+                                        <h2>Home<div class="dot"></div></h2>
+                                        <h2>Work<div class="dot"></div></h2>
+                                        <h2>GazellePub<div class="dot"></div></h2>
+                                        <h2>Havaianas<div class="dot"></div></h2>
+                                        <h2>Coca-Cola<div class="dot"></div></h2>
+                                        <h2>AFCON 2025<div class="dot"></div></h2>
+                                        <h2>Marketing<div class="dot"></div></h2>
+                                        <h2>Analytics<div class="dot"></div></h2>
+                                        <h2>Community<div class="dot"></div></h2>
+                                        <h2>Morocco<div class="dot"></div></h2>
+                                        <h2>Europe<div class="dot"></div></h2>
+                                        <h2>About<div class="dot"></div></h2>
+                                        <h2 class="active">Contact<div class="dot"></div></h2>
+                                        <h2>Success<div class="dot"></div></h2>
+                                        <h2>Error<div class="dot"></div></h2>
+                                    </div>
+                <div class="rounded-div-wrap bottom">
+                    <div class="rounded-div"></div>
+                </div>
+            </div>
+        </div>
+        <main class="main" id="contact" data-barba="container" data-barba-namespace="contact" >
+                                                        <div class="btn btn-hamburger">
+                <div class="btn-click magnetic" data-strength="50" data-strength-text="25">
+                    <div class="btn-fill"></div>
+                    <div class="btn-text">
+                        <div class="btn-bars"></div>
+                        <span class="btn-text-inner">Menu</span>
+                    </div>
+                </div>
+            </div>
+            <div class="overlay fixed-nav-back"></div>
+            <div class="fixed-nav theme-dark">
+                <div class="fixed-nav-rounded-div">
+                    <div class="rounded-div-wrap">
+                        <div class="rounded-div"></div>
+                    </div>
+                </div>
+                <div class="fixed-nav-inner">
+                    <div class="row nav-row">
+                        <h5>Navigation</h5>
+                        <div class="stripe"></div>
+                        <ul class="links-wrap">
+                            <li class="btn btn-link">
+                                <a href="index.html" class="btn-click magnetic" data-strength="24" data-strength-text="12">
+                                <span class="btn-text">
+                                    <span class="btn-text-inner">Home</span>
+                                </span>
+                                </a>
+                            </li>
+                            <li class="btn btn-link">
+                                <a href="work.html" class="btn-click magnetic" data-strength="24" data-strength-text="12">
+                                <span class="btn-text">
+                                    <span class="btn-text-inner">Work</span>
+                                </span>
+                                </a>
+                            </li>
+                            <li class="btn btn-link">
+                                <a href="about.html" class="btn-click magnetic" data-strength="24" data-strength-text="12">
+                                <span class="btn-text">
+                                    <span class="btn-text-inner">About</span>
+                                </span>
+                                </a>
+                            </li>
+                            <li class="btn btn-link active">
+                                <a href="contact.html" class="btn-click magnetic" data-strength="24" data-strength-text="12">
+                                <span class="btn-text">
+                                    <span class="btn-text-inner">Contact</span>
+                                </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row social-row">
+                        <div class="stripe"></div>
+                        <div class="socials">
+                            <h5>Socials</h5>
+                            <ul>
+                                <li class="btn btn-link btn-link-external">
+                                    <a href="https://www.facebook.com/walid.arrich/" target="_blank" class="btn-click magnetic" data-strength="20" data-strength-text="10">
+                                        <span class="btn-text">
+                                            <span class="btn-text-inner">Facebook</span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="btn btn-link btn-link-external">
+                                    <a href="https://www.instagram.com/oualiid_art" target="_blank" class="btn-click magnetic" data-strength="20" data-strength-text="10">
+                                        <span class="btn-text">
+                                            <span class="btn-text-inner">Instagram</span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="btn btn-link btn-link-external">
+                                    <a href="https://x.com/walid_arrich" target="_blank" class="btn-click magnetic" data-strength="20" data-strength-text="10">
+                                        <span class="btn-text">
+                                            <span class="btn-text-inner">Twitter / X</span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="btn btn-link btn-link-external">
+                                    <a href="https://linkedin.com/in/oualid-arrich-239948217" target="_blank" class="btn-click magnetic" data-strength="20" data-strength-text="10">
+                                        <span class="btn-text">
+                                            <span class="btn-text-inner">LinkedIn</span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="btn btn-link btn-link-external">
+                                    <a href="https://github.com/Oualid-2001" target="_blank" class="btn-click magnetic" data-strength="20" data-strength-text="10">
+                                        <span class="btn-text">
+                                            <span class="btn-text-inner">GitHub</span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="btn btn-link btn-link-external">
+                                    <a href="https://wa.me/212699893277" target="_blank" class="btn-click magnetic" data-strength="20" data-strength-text="10">
+                                        <span class="btn-text">
+                                            <span class="btn-text-inner">WhatsApp</span>
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-wrap" data-scroll-container><header class="section default-header contact-header theme-dark" data-scroll-section>
+   <div class="nav-bar">
+    <div class="credits-top">
+        <div class="btn btn-link btn-left-top">
+            <a href="index.html" class="btn-click magnetic" data-strength="20" data-strength-text="10">
+            <span class="btn-text">
+                <div class="credit"><span>©</span></div><div class="cbd"><span class="code-by">Code by </span><span class="oualid"><span class="oualid-span">Oualid</span> <span class="arrich">Arrich</span></span></span></div>
+            </span>
+            </a>
+        </div>
+    </div>
+    <ul class="links-wrap">
+        <li class="btn btn-link">
+            <a href="work.html" class="btn-click magnetic" data-strength="20" data-strength-text="10">
+            <span class="btn-text">
+                <span class="btn-text-inner">Work</span>
+            </span>
+            </a>
+        </li>
+        <li class="btn btn-link">
+            <a href="about.html" class="btn-click magnetic" data-strength="20" data-strength-text="10">
+            <span class="btn-text">
+                <span class="btn-text-inner">About</span>
+            </span>
+            </a>
+        </li>
+        <li class="btn btn-link active">
+            <a href="contact.html" class="btn-click magnetic" data-strength="20" data-strength-text="10">
+            <span class="btn-text">
+                <span class="btn-text-inner">Contact</span>
+            </span>
+            </a>
+        </li>
+        <li class="btn btn-link btn-menu">
+            <div class="btn-click magnetic" data-strength="20" data-strength-text="10">
+                <div class="btn-text">
+                    <span class="btn-text-inner">Menu</span>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>   <div class="container medium">
+      <div class="row once-in">
+         <div class="flex-col">
+            <h1><span><div class="profile-picture"></div> Let's start a </span><span>project together</span></h1>
+         </div>
+         <div class="flex-col">
+            <div class="profile-picture"></div>
+            <div class="arrow"><?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>arrow-up-right</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-1019.000000, -279.000000)" stroke="#FFFFFF" stroke-width="1.5">
+            <g id="arrow-up-right" transform="translate(1026.000000, 286.000000) rotate(90.000000) translate(-1026.000000, -286.000000) translate(1020.000000, 280.000000)">
+                <polyline id="Path" points="2.76923077 0 12 0 12 9.23076923"></polyline>
+                <line x1="12" y1="0" x2="0" y2="12" id="Path"></line>
+            </g>
+        </g>
+    </g>
+</svg></div>
+         </div>
+      </div>
+      <div class="row once-in">
+         <div class="flex-col">
+            <form class="form" id="contactForm" method="POST" action="https://formspree.io/f/mrerjlyb" enctype="multipart/form-data">
+               <div class="website-field">
+                  <label class="label" for="tel">Phone Number</label>
+                  <input class="field" type="text" id="form-tel" name="tel" tabindex="-1">
+               </div>
+               <input type="hidden" name="_subject" value="New message from Oualid Arrich Portfolio">
+               <div class="form-col">
+                  <h5>01</h5>
+                  <label class="label" for="form-name">What's your name? *</label>
+                  <input class="field" type="text" id="form-name" name="name" required placeholder="John Doe">
+               </div>
+               <div class="form-col">
+                  <h5>02</h5>
+                  <label class="label" for="form-email">What's your email? *</label>
+                  <input class="field" type="email" id="form-email" name="email" required placeholder="john@doe.com">
+               </div>
+               <div class="form-col">
+                  <h5>03</h5>
+                  <label class="label" for="form-company">What's the name of your organization?</label>
+                  <input class="field" type="text" id="form-company" name="company" placeholder="John & Doe">
+               </div>
+               <div class="form-col">
+                  <h5>04</h5>
+                  <label class="label" for="form-service">What services are you looking for?</label>
+                  <input class="field" type="text" id="form-service" name="service" placeholder="Web Design, Web Development ...">
+               </div>
+               <div class="form-col">
+                  <h5>05</h5>
+                  <label class="label" for="form-message">Your message *</label>
+                  <textarea class="field" id="form-message" name="message" rows="8" required placeholder="Hello Oualid, can you help me with ..."></textarea>
+               </div>
+               <div class="btn-contact-send">
+                  <div class="btn btn-round" data-scroll data-scroll-speed="2" data-scroll-offset="-50%, 0%">
+                     <div class="btn-click magnetic" data-strength="100" data-strength-text="50">
+                        <div class="btn-fill"></div>
+                        <span class="btn-text">
+                           <button type="submit" class="form-btn" id="submitBtn">Send it!</button>
+                        </span>
+                     </div>
+                  </div>
+               </div>
+            </form>
+            <div id="form-success" style="display:none; margin-top: 2em;">
+               <h4 style="color: var(--alert-success);">✓ Message sent successfully!</h4>
+               <p style="color: var(--color-white); opacity: 0.7;">Thank you for reaching out. I'll get back to you soon.</p>
+            </div>
+            <div id="form-error" style="display:none; margin-top: 2em;">
+               <h4 style="color: var(--alert-error);">✗ Something went wrong.</h4>
+               <p style="color: var(--color-white); opacity: 0.7;">Please try again or email me directly at walid.arrich29@gmail.com</p>
+            </div>
+               <div id="form-success" style="display:none; padding: 2em 0; color: var(--alert-success);">
+                  <h4>✓ Message sent successfully!</h4>
+                  <p>Thank you for reaching out. I'll get back to you soon.</p>
+               </div>
+               <div id="form-error" style="display:none; padding: 2em 0; color: var(--alert-error);">
+                  <h4>✗ Something went wrong.</h4>
+                  <p>Please try again or email me directly at walid.arrich29@gmail.com</p>
+               </div>
+         </div>
+         <div class="flex-col">
+            <h5>Contact Details</h5>
+            <ul class="links-wrap">
+               <li class="btn btn-link btn-link-external">
+                  <a href="mailto:walid.arrich29@gmail.com" class="btn-click magnetic" data-strength="20" data-strength-text="10">
+                     <span class="btn-text">
+                        <span class="btn-text-inner">walid.arrich29@gmail.com</span>
+                     </span>
+                  </a>
+               </li>
+               <li class="btn btn-link btn-link-external">
+                  <a href="tel:+212699893277" class="btn-click magnetic" data-strength="20" data-strength-text="10">
+                     <span class="btn-text">
+                        <span class="btn-text-inner">+212 6 99 89 32 77</span>
+                     </span>
+                  </a>
+               </li>
+            </ul>
+            <h5>Business Details</h5>
+            <ul class="links-wrap">
+               <li><p>Oualid Arrich</p></li>
+               <li><p>Digital Marketer</p></li>
+               <li><p>Data Scientist</p></li>
+               <li><p>Location: Morocco</p></li>
+            </ul>
+            <h5>Socials</h5>
+            <ul class="links-wrap">
+               <li class="btn btn-link btn-link-external">
+                  <a href="https://www.facebook.com/walid.arrich/" target="_blank" class="btn-click magnetic" data-strength="20" data-strength-text="10">
+                     <span class="btn-text">
+                        <span class="btn-text-inner">Facebook</span>
+                     </span>
+                  </a>
+               </li>
+               <li class="btn btn-link btn-link-external">
+                  <a href="https://www.instagram.com/oualiid_art" target="_blank" class="btn-click magnetic" data-strength="20" data-strength-text="10">
+                     <span class="btn-text">
+                        <span class="btn-text-inner">Instagram</span>
+                     </span>
+                  </a>
+               </li>
+               <li class="btn btn-link btn-link-external">
+                  <a href="https://x.com/walid_arrich" target="_blank" class="btn-click magnetic" data-strength="20" data-strength-text="10">
+                     <span class="btn-text">
+                        <span class="btn-text-inner">Twitter / X</span>
+                     </span>
+                  </a>
+               </li>
+               <li class="btn btn-link btn-link-external">
+                  <a href="https://linkedin.com/in/oualid-arrich-239948217" target="_blank" class="btn-click magnetic" data-strength="20" data-strength-text="10">
+                     <span class="btn-text">
+                        <span class="btn-text-inner">LinkedIn</span>
+                     </span>
+                  </a>
+               </li>
+               <li class="btn btn-link btn-link-external">
+                  <a href="https://github.com/Oualid-2001" target="_blank" class="btn-click magnetic" data-strength="20" data-strength-text="10">
+                     <span class="btn-text">
+                        <span class="btn-text-inner">GitHub</span>
+                     </span>
+                  </a>
+               </li>
+               <li class="btn btn-link btn-link-external">
+                  <a href="https://wa.me/212699893277" target="_blank" class="btn-click magnetic" data-strength="20" data-strength-text="10">
+                     <span class="btn-text">
+                        <span class="btn-text-inner">WhatsApp</span>
+                     </span>
+                  </a>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </div>
+</header>
+                                <footer class="section footer footer-contact theme-dark" data-scroll-section>
+                    <div class="container no-padding">
+                            <div class="row bottom-footer">
+                                <div class="flex-col">
+                                    <div class="credits">
+                                        <h5>Version</h5>
+                                        <p>2025 © Edition</p>
+                                    </div>
+                                    <div class="time">
+                                        <h5>Local time</h5>
+                                        <p><span id="timeSpan">—</span></p>
+                                    </div>
+                                </div>
+                                <div class="flex-col">
+                                    <div class="socials">
+                                        <h5>Socials</h5>
+                                        <ul>
+                                            <li class="btn btn-link btn-link-external">
+                                                <a href="https://www.facebook.com/walid.arrich/" target="_blank" class="btn-click magnetic" data-strength="20" data-strength-text="10">
+                                                    <span class="btn-text">
+                                                        <span class="btn-text-inner">Facebook</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="btn btn-link btn-link-external">
+                                                <a href="https://www.instagram.com/oualiid_art" target="_blank" class="btn-click magnetic" data-strength="20" data-strength-text="10">
+                                                    <span class="btn-text">
+                                                        <span class="btn-text-inner">Instagram</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="btn btn-link btn-link-external">
+                                                <a href="https://x.com/walid_arrich" target="_blank" class="btn-click magnetic" data-strength="20" data-strength-text="10">
+                                                    <span class="btn-text">
+                                                        <span class="btn-text-inner">Twitter / X</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="btn btn-link btn-link-external">
+                                                <a href="https://linkedin.com/in/oualid-arrich-239948217" target="_blank" class="btn-click magnetic" data-strength="20" data-strength-text="10">
+                                                    <span class="btn-text">
+                                                        <span class="btn-text-inner">LinkedIn</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="btn btn-link btn-link-external">
+                                                <a href="https://github.com/Oualid-2001" target="_blank" class="btn-click magnetic" data-strength="20" data-strength-text="10">
+                                                    <span class="btn-text">
+                                                        <span class="btn-text-inner">GitHub</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="btn btn-link btn-link-external">
+                                                <a href="https://wa.me/212699893277" target="_blank" class="btn-click magnetic" data-strength="20" data-strength-text="10">
+                                                    <span class="btn-text">
+                                                        <span class="btn-text-inner">WhatsApp</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <div class="stripe"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </footer>
+                            </div>
+        </main>
+        <script src="js/jquery-3.5.1.min.js"></script>
+        <script src="js/js.cookie.min.js"></script>
+        <script src="js/gsap.min.js"></script> 
+        <script src="js/ScrollTrigger.min.js"></script>
+        <!-- <script src="https://cdn.jsdelivr.net/npm/@barba/core"></script> -->
+        <!-- <script src="https://cdn.jsdelivr.net/npm/@barba/core@2.9.7"></script> -->
+        <script src="js/core@2.10.3.js"></script>
+        <script src="js/lazyload.min.js"></script>
+        
+        <script src="js/locomotive-scroll.min.js"></script>        <script defer src="js/index-new.js"></script>    <script>
+      
+      // Form handling with Formspree
+      const contactForm = document.getElementById('contactForm');
+      const submitBtn = document.getElementById('submitBtn');
+      const successDiv = document.getElementById('form-success');
+      const errorDiv = document.getElementById('form-error');
+
+      if (contactForm) {
+         contactForm.addEventListener('submit', function(e) {
+            // Check if form is valid first
+            if (!contactForm.checkValidity()) {
+               return;
+            }
+
+            e.preventDefault();
+
+            // Show loading state
+            const originalText = submitBtn.textContent;
+            submitBtn.textContent = 'Sending...';
+            submitBtn.disabled = true;
+            submitBtn.style.opacity = '0.7';
+
+            // Hide any previous messages
+            successDiv.style.display = 'none';
+            errorDiv.style.display = 'none';
+
+            // Send form data
+            const formData = new FormData(contactForm);
+
+            fetch(contactForm.action, {
+               method: 'POST',
+               body: formData,
+               headers: {
+                  'Accept': 'application/json'
+               }
+            }).then(function(response) {
+               if (response.ok) {
+                  // SUCCESS
+                  contactForm.style.display = 'none';
+                  successDiv.style.display = 'block';
+                  // Scroll to success message smoothly
+                  successDiv.scrollIntoView({ behavior: 'smooth', block: 'center' });
+               } else {
+                  throw new Error('Server error: ' + response.status);
+               }
+            }).catch(function(error) {
+               // ERROR
+               submitBtn.textContent = originalText;
+               submitBtn.disabled = false;
+               submitBtn.style.opacity = '1';
+               errorDiv.style.display = 'block';
+               errorDiv.scrollIntoView({ behavior: 'smooth', block: 'center' });
+               console.error('Form error:', error);
+            });
+         });
+      }
+
+      // Morocco time update
+// Morocco time update
+// Morocco time update
+
+      function updateTime() {
+         const now = new Date();
+         const options = { hour: '2-digit', minute: '2-digit', timeZone: 'Africa/Casablanca' };
+         const timeSpan = document.getElementById('timeSpan');
+         if (timeSpan) {
+            timeSpan.textContent = now.toLocaleTimeString('en-US', options) + ' WET';
+         }
+      }
+      updateTime();
+      setInterval(updateTime, 60000);
+   </script>
+</body>
+</html>
