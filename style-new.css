@@ -3895,4 +3895,15 @@ main.touch .case-intro-image .btn-wrap {
         .tile-image .overlay-image { background-color: #111 !important; }
         /* Time display */
         #timeSpan { color: var(--color-gray); }
- 
+/* f style-new.css */
+body, .main-container, section {
+    background-color: #ffffff; /* Awla ay lawn msta3mel f l-design */
+    position: relative;
+    z-index: 1;
+/* Ila kanti dayr class smiytha .about-page awla section smiyto about */
+#about, .about-section {
+    background-color: #ffffff; 
+    z-index: 10; /* Bach t-koun l-foq */
+    position: relative;
+    overflow: hidden; /* Bach t-mseh ay haja kharja 3la l-itār */
+}} 
